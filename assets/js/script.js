@@ -21,7 +21,7 @@ function generatePassword() {
     var pwlength = (prompt("How long would you like your password? Please choose a number between 8 and 128."));
   }
 //informing the user of the number of characters they have chosen
-  alert("Your passwrod will have " + pwlength + " characters.");
+  alert("Your password will have " + pwlength + " characters.");
 
 
   var confirmcapital = confirm("Would you like capital letters?");
